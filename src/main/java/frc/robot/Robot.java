@@ -12,7 +12,7 @@ public class Robot extends TimedRobot
   public static RobotContainer m_robotContainer;
 
   //Subsystems
-Wheels wheels = new Wheels();
+  public static Wheels wheels;
   //Navx
   public static AHRS m_ahrs;
 
@@ -22,6 +22,7 @@ Wheels wheels = new Wheels();
 
     //Subsystems
     
+    wheels = new Wheels();
     //Container
     m_robotContainer = new RobotContainer();
 
